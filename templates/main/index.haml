@@ -1,0 +1,39 @@
+%h3	Welcome to the Sinatra Starter Kit.
+
+%h4 Contents
+
+%ul
+  %li 
+    %strong app.rb
+    %p Configure your application. Add actions (e.g. get "blog" do ...) here.
+  %li
+    %strong config.ru
+    %p Rack-Up configuration file.
+  %li
+    %strong public/
+    %p This folder is checked first for matching filenames before requests are passed to app.rb. This works similar to Rails.
+  %li
+    %strong templates/
+    %p Houses HAML and SASS templates.
+  %li
+    %strong tmp/
+    %p 
+      Used when Sinatra is hosted in conjunction with Phusion Passenger (TM). 
+      %code touch tmp/restart.txt
+      to trigger reloading of the application files, or
+      %code touch tmp/always_restart.txt
+      to reload the application files for every request.
+
+%h4 Links, more information, and help.
+
+%ul
+  %li
+    %a{:href => "http://github.com/jstr/sinatra-starter-kit"} Sinatra starter kit on GitHub.com
+  %li
+    %a{:href => "http://www.sinatrarb.com/intro.html"} The Sinatra homepage
+  %li
+    %a{:href => "http://www.sinatrarb.com/api/index.html"} Sinatra API rdocs
+  %li
+    %a{:href => "http://haml-lang.com/docs/yardoc/file.HAML_REFERENCE.html"} HAML reference
+  %li
+    %a{:href => "http://sass-lang.com/docs/yardoc/file.SASS_REFERENCE.html"} SASS reference
